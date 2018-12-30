@@ -1,0 +1,147 @@
+.ProjectCell {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+  min-height: 240px;
+  position: relative;
+  box-shadow: 0 2px 16px -6px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  transition: all 0.25s ease-in-out;
+  transform: scale3d(1, 1, 1);
+}
+
+.ProjectCell:hover {
+  transform: scale3d(1.025, 1.025, 1.025);
+  box-shadow: 0 2px 24px -4px rgba(0, 0, 0, 0.2);
+}
+
+.ProjectCell::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    -190deg,
+    rgba(0, 0, 0, 0),
+    rgba(255, 255, 255, 1)
+  );
+  z-index: -1;
+  transition: opacity 0.5s linear;
+  opacity: 0;
+}
+
+.ProjectCell::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    -190deg,
+    rgba(0, 0, 0, 0),
+    rgba(255, 255, 255, 1)
+  );
+  z-index: -1;
+  transition: opacity 0.4s linear;
+  border-left: 2px dashed var(--violet);
+  border-right: 2px dashed var(--violet);
+  border-bottom: 2px dashed var(--violet);
+}
+
+.ProjectCell:hover::before,
+.ProjectCell:hover::after {
+  opacity: 1;
+}
+
+.body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.title {
+  background: #fff;
+  z-index: 5;
+  padding: 4px 12px 4px;
+  border: 2px dashed var(--violet);
+}
+
+.title h2 {
+  margin-bottom: 3px;
+}
+
+.external {
+  /* padding-left: 24px; */
+  margin-bottom: 4px;
+}
+
+.external small {
+  font-variant-caps: all-petite-caps;
+}
+
+.link {
+  line-height: 1;
+  word-break: break-all;
+  letter-spacing: 1px;
+  width: 100%;
+  font-variant-caps: all-petite-caps;
+  color: var(--blue);
+  display: block;
+}
+
+.description {
+  /* z-index: 6; */
+  /* padding: 24px; */
+}
+
+.description p {
+  /* z-index: 6; */
+}
+
+.typeTag {
+  z-index: 10;
+  position: absolute;
+  top: -3px;
+  right: 12px;
+  padding: 8px 12px 6px;
+  box-shadow: 0 2px 16px -6px rgba(0, 0, 0, 0.56);
+  color: #fff;
+  border-radius: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.typeTag small {
+  display: flex;
+}
+
+@media (--xs) {
+  .ProjectCell {
+    min-width: calc(100vw - 96px);
+  }
+}
+
+.uiType {
+  gradiented: blue;
+}
+
+.cliType {
+  gradiented: green;
+}
+
+.pkgType {
+  gradiented: red;
+}
+
+.serverType {
+  gradiented: blue;
+}
+
+.frameworkType {
+  gradiented: green;
+}

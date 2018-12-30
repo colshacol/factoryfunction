@@ -1,0 +1,174 @@
+/* .ProjectCell {
+  /* border: 2px dashed var(--violet); */
+  border-style: dashed;
+  border-width: 2px;
+  border-color: var(--violet);
+  border-radius: 2px;
+  width: 100%;
+  min-height: 240px;
+  position: relative;
+  box-shadow: 0 2px 16px -6px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  transition: all 0.35s ease-in-out;
+  transform: scale3d(1, 1, 1);
+  color: var(--black);
+}
+
+.ProjectCell * {
+  transition: all 0.35s ease-in-out;
+  color: var(--black);
+}
+
+.ProjectCell:hover {
+  transform: scale3d(1.025, 1.025, 1.025);
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.ProjectCell:hover * {
+  color: #fff !important;
+}
+
+@media (--xs) {
+  .ProjectCell {
+    min-width: calc(100vw - 96px);
+  }
+}
+
+[data-project-type]::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transition: opacity 0.35s linear;
+  opacity: 0;
+}
+
+[data-project-type='ui']::before {
+  opacity: 0;
+  background: linear-gradient(-1fff0, #3b90f4 0%, #fff 99%);
+}
+
+[data-project-type='framework']::before {
+  opacity: 0;
+  background: linear-gradient(-179deg, #fff0 0%, #fff 99%);
+}
+
+[data-project-type='server']::before {
+  opacity: 0;
+  background: linear-gradient(-179deg, #fff0 0%, #fff 99%);
+}
+
+[data-project-type='package']::before {
+  opacity: 0;
+  background: linear-gradient(-179deg, #fff0 0%, #fff 99%);
+}
+
+[data-project-type='cli']::before {
+  opacity: 0;
+  background: linear-gradient(-179deg, #fff0 0%, #fff 99%);
+}
+
+[data-project-type]:hover::before {
+  opacity: 1;
+}
+
+.title {
+  padding: 4px 12px 0;
+}
+
+.description {
+  z-index: 6;
+  margin-top: 12px;
+  padding: 0 12px;
+}
+
+.description p {
+  z-index: 6;
+}
+
+div.typeTag {
+  z-index: 5;
+  position: absolute;
+  top: -3px;
+  right: 12px;
+  padding: 8px 12px;
+  box-shadow: 0 2px 16px -6px rgba(0, 0, 0, 0.56);
+  border-radius: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.typeTag small {
+  width: auto;
+  color: #fff !important;
+}
+
+.uiType {
+  gradiented: blue;
+}
+
+.cliType {
+  gradiented: green;
+}
+
+.pkgType {
+  gradiented: red;
+}
+
+.serverType {
+  gradiented: blue;
+}
+
+.frameworkType {
+  gradiented: green;
+}
+
+/* 
+
+.uiCell::before {
+  gradiented: blue;
+  opacity: 0;
+}
+
+.cliCell::before {
+  gradiented: green;
+  opacity: 0;
+}
+
+.packageCell::before {
+  gradiented: red;
+  opacity: 0;
+}
+
+.serverCell::before {
+  gradiented: blue;
+  opacity: 0;
+}
+
+.frameworkCell::before {
+  gradiented: green;
+  opacity: 0;
+}
+
+.uiCell::before:hover {
+  opacity: 1;
+}
+
+.cliCell::before:hover {
+  opacity: 1;
+}
+
+.packageCell::before:hover {
+  opacity: 1;
+}
+
+.serverCell::before:hover {
+  opacity: 1;
+}
+
+.frameworkCell::before:hover {
+  opacity: 1;
+} */ */

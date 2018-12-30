@@ -1,0 +1,31 @@
+.Router {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 64px;
+  padding: 24px;
+  padding-top: 36px;
+}
+
+.footbar {
+  height: 64px;
+  background: var(--ash);
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 12px;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: calc(100vw - 63px);
+}
+
+/* When SideBar hides, tiles clash with IconLogo. */
+@media (--sm) {
+  .Router {
+    padding-top: 48px;
+  }
+}

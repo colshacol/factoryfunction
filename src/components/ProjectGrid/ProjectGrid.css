@@ -1,0 +1,15 @@
+.ProjectGrid {
+  transition: all 0.35s;
+}
+
+.resizing {
+  opacity: 0;
+}
+
+:global .grid {
+  height: 100%;
+}
+
+.bottomSpacer {
+  margin-bottom: 140px;
+}

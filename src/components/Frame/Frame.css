@@ -1,0 +1,18 @@
+.Frame {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.body {
+  display: flex;
+  height: 100%;
+}
+
+.Router {
+  width: 100%;
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

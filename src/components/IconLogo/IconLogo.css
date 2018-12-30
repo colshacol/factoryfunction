@@ -1,0 +1,9 @@
+.IconLogo {
+  background-image: linear-gradient(-179deg, #3b90f4 0%, #524df8 99%);
+  box-shadow: 0 2px 16px -6px rgba(0, 0, 0, 0.56);
+  border-radius: 2px;
+  width: 64px;
+  height: 64px;
+  max-width: 64px;
+  min-width: 64px;
+}

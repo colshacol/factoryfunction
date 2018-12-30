@@ -1,0 +1,20 @@
+.redGradient {
+  background-image: linear-gradient(-179deg, #ec733b 0%, #e71158 99%);
+  box-shadow: 0 2px 16px -6px rgba(0, 0, 0, 0.56);
+  border-radius: 2px;
+  color: #fff;
+}
+
+.blueGradient {
+  background-image: linear-gradient(-179deg, #3b90f4 0%, #524df8 99%);
+  box-shadow: 0 2px 16px -6px rgba(0, 0, 0, 0.56);
+  border-radius: 2px;
+  color: #fff;
+}
+
+.greenGradient {
+  background-image: linear-gradient(-179deg, #1de79b 0%, #25b862 99%);
+  box-shadow: 0 2px 16px -6px rgba(0, 0, 0, 0.56);
+  border-radius: 2px;
+  color: #fff;
+}

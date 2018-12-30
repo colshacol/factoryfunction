@@ -1,0 +1,14 @@
+.TextLogo {
+  color: var(--violet);
+  letter-spacing: 0.25px;
+  font-size: 14px;
+}
+
+.TextLogo span:first-of-type {
+  font-weight: 700;
+}
+
+.TextLogo span:last-of-type {
+  font-weight: 400;
+  margin-left: 1px;
+}

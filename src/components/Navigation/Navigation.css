@@ -1,0 +1,22 @@
+.Navigation {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+  background: var(--black);
+  padding: 24px;
+}
+
+.NavigationSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.NavigationSectionLink {
+  height: 36px;
+}
+
+.NavigationSectionInnerLink {
+  height: 22px;
+  margin-left: 12px;
+}

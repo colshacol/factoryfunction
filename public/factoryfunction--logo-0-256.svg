@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-256</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-2.47198095e-14%" x2="50%" y2="98.7084538%" id="linearGradient-1">
+            <stop stop-color="#3B90F4" offset="0%"></stop>
+            <stop stop-color="#524DF8" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="256" height="256" rx="2"></rect>
+        <filter x="-6.2%" y="-5.5%" width="112.5%" height="112.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="3" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.56 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="logo-256" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-2">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+        </g>
+        <path d="M118.88,165.984 L108,165.984 L108,153.824 L118.88,153.824 L118.88,148.704 C118.88,142.815971 120.714648,137.994685 124.384,134.24 C128.053352,130.485315 133.599963,128.608 141.024,128.608 C142.645341,128.608 144.266659,128.671999 145.888,128.8 C147.509341,128.928001 149.087992,129.034666 150.624,129.12 L150.624,142.688 C148.490656,142.431999 146.272012,142.304 143.968,142.304 C141.493321,142.304 139.722672,142.879994 138.656,144.032 C137.589328,145.184006 137.056,147.12532 137.056,149.856 L137.056,153.824 L149.6,153.824 L149.6,165.984 L137.056,165.984 L137.056,220 L118.88,220 L118.88,165.984 Z M159.536,153.824 L176.816,153.824 L176.816,163.04 L177.2,163.04 C179.504012,159.199981 182.490648,156.405342 186.16,154.656 C189.829352,152.906658 193.583981,152.032 197.424,152.032 C202.288024,152.032 206.277318,152.693327 209.392,154.016 C212.506682,155.338673 214.959991,157.173322 216.752,159.52 C218.544009,161.866678 219.802663,164.725316 220.528,168.096 C221.253337,171.466684 221.616,175.19998 221.616,179.296 L221.616,220 L203.44,220 L203.44,182.624 C203.44,177.162639 202.586675,173.088013 200.88,170.4 C199.173325,167.711987 196.144022,166.368 191.792,166.368 C186.842642,166.368 183.258678,167.839985 181.04,170.784 C178.821322,173.728015 177.712,178.570633 177.712,185.312 L177.712,220 L159.536,220 L159.536,153.824 Z" id="fn" fill="#FFFFFF"></path>
+    </g>
+</svg>
