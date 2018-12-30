@@ -16,7 +16,7 @@ const IconLogo = (props) => {
 
   return (
     <div styleName="IconLogo" style={{ zIndex: 10 }}>
-      <img style={{ maxWidth: '100%' }} src="./logo-64.png" />
+      <img style={{ maxWidth: '100%' }} src="./public/logo-64.png" />
     </div>
   )
 }

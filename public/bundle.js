@@ -2824,7 +2824,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "@font-face {\n  font-family: 'Helvetica Neue';\n  src: url('/fonts/HelveticaNeue/HelveticaNeue.otf') format('otf'),\n    url('/fonts/HelveticaNeue/HelveticaNeue.ttf') format('ttf');\n}\n", ""]);
+exports.push([module.i, "@font-face {\n  font-family: 'Helvetica Neue';\n  src: url('/public/fonts/HelveticaNeue/HelveticaNeue.otf') format('otf'),\n    url('/public/fonts/HelveticaNeue/HelveticaNeue.ttf') format('ttf');\n}\n", ""]);
 
 // exports
 
@@ -33542,7 +33542,7 @@ var IconLogo = function IconLogo(props) {
     style: {
       maxWidth: '100%'
     },
-    src: "./logo-64.png",
+    src: "./public/logo-64.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19

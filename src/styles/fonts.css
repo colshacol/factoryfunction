@@ -1,5 +1,5 @@
 @font-face {
   font-family: 'Helvetica Neue';
-  src: url('/fonts/HelveticaNeue/HelveticaNeue.otf') format('otf'),
-    url('/fonts/HelveticaNeue/HelveticaNeue.ttf') format('ttf');
+  src: url('/public/fonts/HelveticaNeue/HelveticaNeue.otf') format('otf'),
+    url('/public/fonts/HelveticaNeue/HelveticaNeue.ttf') format('ttf');
 }
