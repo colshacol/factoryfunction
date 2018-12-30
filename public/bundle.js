@@ -2812,6 +2812,25 @@ exports.locals = {
 
 /***/ }),
 
+/***/ "../node_modules/css-loader/index.js?!../node_modules/postcss-loader/lib/index.js?!./styles/fonts.css":
+/*!************************************************************************************************************!*\
+  !*** ../node_modules/css-loader??ref--6-1!../node_modules/postcss-loader/lib??ref--6-2!./styles/fonts.css ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "../node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "@font-face {\n  font-family: 'Helvetica Neue';\n  src: url('/fonts/HelveticaNeue/HelveticaNeue.otf') format('otf'),\n    url('/fonts/HelveticaNeue/HelveticaNeue.ttf') format('ttf');\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "../node_modules/css-loader/index.js?!../node_modules/postcss-loader/lib/index.js?!./styles/index.css":
 /*!************************************************************************************************************!*\
   !*** ../node_modules/css-loader??ref--6-1!../node_modules/postcss-loader/lib??ref--6-2!./styles/index.css ***!
@@ -2822,6 +2841,7 @@ exports.locals = {
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "../node_modules/css-loader/lib/css-base.js")(false);
 // imports
 exports.i(__webpack_require__(/*! -!../../node_modules/css-loader??ref--6-1!../../node_modules/postcss-loader/lib??ref--6-2!./variables.css */ "../node_modules/css-loader/index.js?!../node_modules/postcss-loader/lib/index.js?!./styles/variables.css"), "");
+exports.i(__webpack_require__(/*! -!../../node_modules/css-loader??ref--6-1!../../node_modules/postcss-loader/lib??ref--6-2!./fonts.css */ "../node_modules/css-loader/index.js?!../node_modules/postcss-loader/lib/index.js?!./styles/fonts.css"), "");
 
 // module
 exports.push([module.i, ":root {\n  font-family: 'Helvetica Neue', sans-serif;\n  font-size: 62.5%;\n  -webkit-text-size-adjust: 62.5%;\n  font-variant-ligatures: none;\n  -webkit-font-smoothing: antialiased;\n  line-height: 1.4;\n  letter-spacing: 0.5px;\n  font-weight: 400;\n  background: var(--ghost);\n  color: var(--black);\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased !important;\n  text-rendering: optimizeLegibility !important;\n}\n\np {\n  /* text-shadow: 1px 1px 1px rgba(27, 27, 78, 0.025); */\n  /* -webkit-text-stroke: 0.015rem #1b1b4e; */\n}\n\nbody {\n  font-size: 1.6rem;\n}\n\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nh1 {\n  font-size: 3.6rem;\n  color: var(--black);\n  letter-spacing: 0px;\n}\n\nh2 {\n  font-size: 2.4rem;\n  color: var(--black);\n  letter-spacing: 0px;\n}\n\nh3 {\n  font-size: 1.8rem;\n  color: var(--smoke);\n  letter-spacing: 0px;\n}\n\nh4 {\n  font-size: 1.2rem;\n  color: var(--smoke);\n  letter-spacing: 0px;\n  text-transform: uppercase;\n}\n\nsmall {\n  font-size: 11px;\n  letter-spacing: 1px;\n}\n\na:any-link {\n  text-decoration: none;\n}\n", ""]);
